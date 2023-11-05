@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Serviteca  Power Center</title>
+    <link rel="stylesheet" href="css/registro.css">
+   
+</head>
+<body>
+    <a href="home.html"> <button class="btn-volver"> Volver a Home</button></a>
+    <div class="container">
+        <h1>Registro</h1>
+        <form action="tu_script_de_registro.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" required>
+
+            <input type="submit" class="register-button" value="Registrarse">
+            <br> 
+             <a href="login.html"><h3 style="align-center;">¿ Ya posees una cuenta?</h3></a> 
+        </form>
+    </div>
+</body>
+</html>
